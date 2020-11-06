@@ -12,6 +12,7 @@ Estimating a depth map from a single RGB image has been investigated widely for 
 ### Setup
 Our experiments have been done on Anaconda virtual environment and it is recommended for reproduction or evaluation with pretrained models.
 
-'''bash
+
+```bash
 conda install pytorch=1.4.0 torchvision=0.5.0 -c pytorch
-'''
+```
