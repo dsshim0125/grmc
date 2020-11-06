@@ -2,3 +2,5 @@
 
 ### IEEE ICRA 2021 Submission 
 Official PyTorch implementation of the paper.
+
+![Figure](figs/overview.png)
