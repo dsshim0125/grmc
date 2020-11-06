@@ -10,9 +10,16 @@ Estimating a depth map from a single RGB image has been investigated widely for 
 
 
 ### Setup
-Our experiments have been done on Anaconda virtual environment and it is recommended for reproduction or evaluation with pretrained models.
+It is recommended to use Anaconda virtual environment  for reproduction or evaluation with pretrained models.
 
 
 ```bash
 conda install pytorch=1.4.0 torchvision=0.5.0 -c pytorch
 ```
+
+We ran our experiments with PyTorch 1.4.0, CUDA 10.2, Python 3.5.6 and Ubuntu 18.04. Usage of higher or lower version of PyTorch seems to show incompatible to our pre-trained model.
+
+```bash
+pip install pillow opencv-contrib-python
+```
+If you do not use Anaconda environment, use pip3 rather than pip for dependencies with Python3.
