@@ -10,10 +10,11 @@ Estimating a depth map from a single RGB image has been investigated widely for 
 
 
 ### Setup
-It is recommended to use Anaconda virtual environment  for reproduction or evaluation with pretrained models.
+It is recommended to create a new Anaconda virtual environment for reproduction or evaluation with pretrained models.
 
 
 ```bash
+conda create -n grmc python==3.5.6
 conda install pytorch=1.4.0 torchvision=0.5.0 -c pytorch
 ```
 
@@ -22,4 +23,8 @@ We ran our experiments with PyTorch 1.4.0, CUDA 10.2, Python 3.5.6 and Ubuntu 18
 ```bash
 pip install pillow==5.2.0 opencv-contrib-python
 ```
-If you do not use Anaconda environment, use pip3 rather than pip for dependencies with Python3.
+If you do not use Anaconda environment, please use pip3 rather than pip for dependencies with Python3.
+
+### Dataset
+
+Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.google.com/drive/folders/1TzwfNA5JRFTPO-kHMU___kILmOEodoBo) for both training and inference from DenseDepth [github](https://github.com/ialhashim/DenseDepth).
