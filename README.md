@@ -15,6 +15,7 @@ It is recommended to create a new Anaconda virtual environment for reproduction 
 
 ```bash
 conda create -n grmc python==3.5.6
+conda activate grmc
 conda install pytorch=1.4.0 torchvision=0.5.0 -c pytorch
 ```
 
