@@ -60,7 +60,7 @@ python encoder_pretrain.py --encoder_type --layers -b
 ```
 
 ### Training
-We provide weights of two monocular depth estimation networks, [Densedepth](https://drive.google.com/file/d/1p6shLmmbd69fsFoBhqJB1B1FqGM04J2v/view?usp=sharing) and [FCRN](https://drive.google.com/file/d/1Dv8iglQlCA-lZ9eJhrLU2xypGN87F4hE/view?usp=sharing) with pretrained encoders by our proposed algorithm. Download the pretrained weights and place them on the checkpoints for the evaluation.
+We provide weights of two monocular depth estimation networks, [DenseDepth](https://drive.google.com/file/d/1p6shLmmbd69fsFoBhqJB1B1FqGM04J2v/view?usp=sharing) and [FCRN](https://drive.google.com/file/d/1Dv8iglQlCA-lZ9eJhrLU2xypGN87F4hE/view?usp=sharing) with pretrained encoders by our proposed algorithm. Download the pretrained weights and place them on the checkpoints for the evaluation.
 
 | Model  |  Encoder | batch_size|
 |----------|:------:|:--:|
@@ -81,4 +81,4 @@ python evaluate_pytorch.py --model_type --layers
 
 ### Reference
 
-Some codes are sourced and modified from Densedepth([github](https://github.com/ialhashim/DenseDepth)), FCRN([github](https://github.com/dontLoveBugs/FCRN_pytorch)), and MoCo([github](https://github.com/facebookresearch/moco)).
+Some codes are sourced and modified from DenseDepth([github](https://github.com/ialhashim/DenseDepth)), FCRN([github](https://github.com/dontLoveBugs/FCRN_pytorch)), and MoCo([github](https://github.com/facebookresearch/moco)).
