@@ -34,7 +34,6 @@ python encoder_pretrain.py --encoder_type --layers --b
 ```
 
 ### Training
-
 ```bash
 python train.py --encoder_type --layers --bs
 ```
