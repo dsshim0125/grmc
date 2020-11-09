@@ -33,12 +33,14 @@ Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.goog
 
 ```plain
 └── NYU_Depth_v2_DATASET_ROOT
+       |
        ├── data
        |  ├── nyu2_train
        |  ├── nyu2_train.csv
        |  ├── nyu2_test
        |  └── nyu2_test.csv
-       └── nyu2_test.zip
+       |
+       └── nyu_test.zip
 ```
 
 ### Pretraining Encoder
