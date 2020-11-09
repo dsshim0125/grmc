@@ -46,6 +46,11 @@ python encoder_pretrain.py --encoder_type --layers --b
 ```
 
 ### Training
+
+| Model  |  Encoder |
+|----------|:------:|
+|[DenseDepth](https://arxiv.org/abs/1812.11941)| DenseNet-161 |
+|[FCRN](https://arxiv.org/abs/1606.00373)| ResNet-50|
 ```bash
 python train.py --encoder_type --layers --bs
 ```
