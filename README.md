@@ -61,6 +61,8 @@ python train.py --encoder_type --layers --bs
 
 ### Evaluation
 
+Donwload the test data [here](https://drive.google.com/file/d/1LR8Q-YZy1sX7_TBhohMsq8qMNop-8tDi/view?usp=sharing) and place it on the root_data path without any extraction.
+
 ```bash
 python evaluate_pytorch.py --model_type --layers
 ```
