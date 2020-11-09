@@ -81,4 +81,4 @@ python evaluate_pytorch.py --model_type --layers
 
 ### Reference
 
-Some codes are sourced and modified from Densedepth([github](https://github.com/ialhashim/DenseDepth)), FCRN([github](https://github.com/dontLoveBugs/FCRN_pytorch)), and MoCo([github](https://github.com/facebookresearch/moco))
+Some codes are sourced and modified from Densedepth([github](https://github.com/ialhashim/DenseDepth)), FCRN([github](https://github.com/dontLoveBugs/FCRN_pytorch)), and MoCo([github](https://github.com/facebookresearch/moco)).
