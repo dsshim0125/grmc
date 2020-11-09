@@ -56,7 +56,7 @@ Any parametric model can be trained with our proposed self-supervised algorithm,
 
 We use RTX 2080Ti (11GB) for training the encoder and its batch_size can be resized as you use different memory size of GPU.
 ```bash
-python encoder_pretrain.py --encoder_type --layers --b
+python encoder_pretrain.py --encoder_type --layers -b
 ```
 
 ### Training
@@ -78,3 +78,7 @@ Donwload the test data [here](https://drive.google.com/file/d/1LR8Q-YZy1sX7_TBho
 ```bash
 python evaluate_pytorch.py --model_type --layers
 ```
+
+### Reference
+
+Some codes are sourced and modified from Densedepth([github](https://github.com/ialhashim/DenseDepth)), FCRN([github](https://github.com/dontLoveBugs/FCRN_pytorch)), and MoCo([github](https://github.com/facebookresearch/moco))
