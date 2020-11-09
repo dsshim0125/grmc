@@ -37,8 +37,7 @@ Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.goog
        |  ├── nyu2_train
        |  ├── nyu2_train.csv
        |  ├── nyu2_test
-       |  └── nyu2_test.scv
-       |
+       |  └── nyu2_test.csv
        └── nyu2_test.zip
 ```
 
