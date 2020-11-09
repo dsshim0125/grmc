@@ -44,6 +44,4 @@ python train.py --encoder_type --layers --bs
 
 ```bash
 python evaluate_pytorch.py --model_type --layers
-
-
 ```
