@@ -42,8 +42,7 @@ Any parametric model can be trained with our proposed self-supervised algorithm,
 |ResNet-50| 64|
 
 
-We use RTX 2080Ti(11GB) for training the encoder and its batch_size can be resized as you use different memory size of GPU. Larger the batch size is, the better the performance increases.
-
+We use RTX 2080Ti (11GB) for training the encoder and its batch_size can be resized as you use different memory size of GPU.
 ```bash
 python encoder_pretrain.py --encoder_type --layers --b
 ```
