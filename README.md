@@ -6,7 +6,8 @@ This repo provides an official PyTorch implementation of the paper, [https://arx
 
 
 ### Results
-
+![Figure](figs/result.png)
+![Figure](figs/table.png)
 ### Setup
 It is recommended to create a new Anaconda virtual environment for reproduction or evaluation with pretrained models.
 
