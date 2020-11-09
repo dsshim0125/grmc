@@ -6,7 +6,7 @@ This repo provides an official PyTorch implementation of the paper submitted to 
 
 ### Results
 <p align="center">
-	<img src="figs/result.png" alt="photo not available" width="70%" height="70%">
+	<img src="figs/result.png" alt="photo not available" width="75%" height="75%">
   <img src="figs/table.png" alt="photo not available" width="70%" height="70%">
 </p>
 
