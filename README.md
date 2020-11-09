@@ -1,7 +1,7 @@
 ## Learning a Geometric Representation for Data-Efficient Depth Estimation via Gradient Field and Contrastive Loss
 
 ### IEEE ICRA 2021 Submission 
-This repo provides an official PyTorch implementation of the paper [https://arxiv.org/abs/2011.03207](https://arxiv.org/abs/2011.03207).
+This repo provides an official PyTorch implementation of the paper, [https://arxiv.org/abs/2011.03207](https://arxiv.org/abs/2011.03207).
 ![Figure](figs/overview.png)
 
 
@@ -25,3 +25,7 @@ If you do not use Anaconda environment, please use pip3 rather than pip for depe
 ### Dataset
 
 Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.google.com/drive/folders/1TzwfNA5JRFTPO-kHMU___kILmOEodoBo) for both training and inference from DenseDepth [github](https://github.com/ialhashim/DenseDepth).
+
+### Pretraining Encoder
+
+Any parametric model can be trained with our proposed gradient based momentum contrastive learning, and we provide a pretrained models of ResNet-50 and DenseNet-161.
