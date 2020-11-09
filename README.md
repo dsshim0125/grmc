@@ -17,10 +17,10 @@ It is recommended to create a new Anaconda virtual environment for reproduction 
 ```bash
 conda create -n grmc python==3.5.6
 conda activate grmc
-conda install pytorch=1.4.0 torchvision=0.5.0 -c pytorch
+conda install pytorch=1.6.0 torchvision=0.5.0 -c pytorch
 ```
 
-We ran our experiments with PyTorch 1.4.0, CUDA 10.2, Python 3.5.6 and Ubuntu 18.04. Usage of higher or lower version of PyTorch seems to show incompatible to our pre-trained model.
+We ran our experiments with PyTorch 1.6.0, CUDA 10.2, Python 3.5.6 and Ubuntu 18.04. Usage of higher or lower version of PyTorch seems to show incompatible to our pre-trained model.
 
 ```bash
 pip install pillow==5.2.0 opencv-contrib-python
@@ -72,7 +72,7 @@ python train.py --encoder_type --layers --bs
 
 ### Evaluation
 
-Donwload the test data [here](https://drive.google.com/file/d/1LR8Q-YZy1sX7_TBhohMsq8qMNop-8tDi/view?usp=sharing) and place it on the NYU_Depth_v2_DATASET_ROOT without any extraction. Then, run evaluate_pytorch.py to evaluate the performance of the network on NYU Depth v2.
+Donwload the test data [here](https://drive.google.com/file/d/1LR8Q-YZy1sX7_TBhohMsq8qMNop-8tDi/view?usp=sharing) and place it on the NYU_Depth_v2_DATASET_ROOT without any extraction. Then, run evaluate_pytorch.py to evaluate the performance of the network on NYU Depth v2. All the pretrained weights above must be downloaded in the checkpoints/ directory for the evaluation.
 
 ```bash
 python evaluate_pytorch.py --model_type --layers
