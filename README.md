@@ -49,7 +49,7 @@ python encoder_pretrain.py --encoder_type --layers --b
 ```
 
 ### Training
-
+We provide weights of two monocular depth estimation networks, [Densedepth](https://drive.google.com/file/d/1ICsioUVkdRi7cpyfh1lpPkszKZiQXUhF/view?usp=sharing) and [FCRN](https://drive.google.com/file/d/1NBfR17Vnb-CEJ5se2cVuFgZZ65OfEOVv/view?usp=sharing).
 | Model  |  Encoder | batch_size|
 |----------|:------:|:--:|
 |[DenseDepth](https://arxiv.org/abs/1812.11941)| DenseNet-161 |8|
