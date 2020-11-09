@@ -29,3 +29,6 @@ Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.goog
 ### Pretraining Encoder
 
 Any parametric model can be trained with our proposed gradient based momentum contrastive learning, and we provide a pretrained models of ResNet-50 and DenseNet-161.
+```bash
+python encoder_pretrain.py --encoder_type --layers --batch_size
+```
