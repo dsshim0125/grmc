@@ -33,7 +33,7 @@ Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.goog
 
 ### Pretraining Encoder
 
-Any parametric model can be trained with our proposed gradient based momentum contrastive learning, and we provide pretrained models of [ResNet-50](https://drive.google.com/file/d/1v-_Egjs_0d8paTo-GpXQPgceoivEw3qd/view?usp=sharing) and [DenseNet-161](https://drive.google.com/file/d/145XimL8EM6D2fumx70CZvOq1tGpv4svY/view?usp=sharing) as the encoder of depth estimation network.
+Any parametric model can be trained with our proposed self-supervised algorithm, and we provide pretrained models of [ResNet-50](https://drive.google.com/file/d/1v-_Egjs_0d8paTo-GpXQPgceoivEw3qd/view?usp=sharing) and [DenseNet-161](https://drive.google.com/file/d/145XimL8EM6D2fumx70CZvOq1tGpv4svY/view?usp=sharing) as the encoder of depth estimation network.
 
 
 | Encoder  |  batch_size  |
