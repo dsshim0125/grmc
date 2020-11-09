@@ -5,8 +5,11 @@ This repo provides an official PyTorch implementation of the paper submitted to 
 
 
 ### Results
-![Figure](figs/result.png)
-![Figure](figs/table.png)
+<p align="center">
+	<img src="figs/result.png" alt="photo not available" width="50%" height="50%">
+  <img src="figs/table.png" alt="photo not available" width="50%" height="50%">
+</p>
+
 ### Setup
 It is recommended to create a new Anaconda virtual environment for reproduction or evaluation with pretrained models.
 
