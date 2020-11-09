@@ -1,7 +1,7 @@
 ## Learning a Geometric Representation for Data-Efficient Depth Estimation via Gradient Field and Contrastive Loss
 
 ### IEEE ICRA 2021 Submission 
-This repo provides an official PyTorch implementation of the paper submitted to IEEE ICRA 2021, [https://arxiv.org/abs/2011.03207](https://arxiv.org/abs/2011.03207) and offers pretrained encoders and depth estimation networks.
+This repo provides an official PyTorch implementation of the paper submitted to IEEE ICRA 2021 and offers pretrained encoders and depth estimation networks.
 
 
 ### Results
@@ -29,7 +29,18 @@ If you do not use Anaconda environment, please use pip3 rather than pip for depe
 
 ### Dataset
 
-Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.google.com/drive/folders/1TzwfNA5JRFTPO-kHMU___kILmOEodoBo) for both training and inference from DenseDepth [github](https://github.com/ialhashim/DenseDepth).
+Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.google.com/drive/folders/1TzwfNA5JRFTPO-kHMU___kILmOEodoBo) for pretraining the encoder and training the depth estimation network ([source](https://github.com/ialhashim/DenseDepth)). Extract the zip file and do not delete it after extraction. The directory is then be like
+
+```plain
+└── NYU_Depth_v2_DATASET_ROOT
+       ├── nyu_data.zip
+       └── data
+          ├── nyu2_train
+          ├── nyu2_train.csv
+          ├── nyu2_test
+          └── nyu2_test.scv
+   
+```
 
 ### Pretraining Encoder
 
@@ -42,14 +53,13 @@ Any parametric model can be trained with our proposed self-supervised algorithm,
 |ResNet-50| 64|
 
 
-We use RTX 2080Ti(11GB) for training the encoder and its batch_size can be resized as you use different memory size of GPU. Larger the batch size is, the better the performance increases.
-
+We use RTX 2080Ti (11GB) for training the encoder and its batch_size can be resized as you use different memory size of GPU.
 ```bash
 python encoder_pretrain.py --encoder_type --layers --b
 ```
 
 ### Training
-We provide weights of two monocular depth estimation networks, [Densedepth](https://drive.google.com/file/d/1ICsioUVkdRi7cpyfh1lpPkszKZiQXUhF/view?usp=sharing) and [FCRN](https://drive.google.com/file/d/1NBfR17Vnb-CEJ5se2cVuFgZZ65OfEOVv/view?usp=sharing).
+We provide weights of two monocular depth estimation networks, [Densedepth](https://drive.google.com/file/d/1ICsioUVkdRi7cpyfh1lpPkszKZiQXUhF/view?usp=sharing) and [FCRN](https://drive.google.com/file/d/1NBfR17Vnb-CEJ5se2cVuFgZZ65OfEOVv/view?usp=sharing) with pretrained encoders by our proposed algorithm.
 | Model  |  Encoder | batch_size|
 |----------|:------:|:--:|
 |[DenseDepth](https://arxiv.org/abs/1812.11941)| DenseNet-161 |8|
@@ -60,6 +70,8 @@ python train.py --encoder_type --layers --bs
 
 
 ### Evaluation
+
+Donwload the test data [here](https://drive.google.com/file/d/1LR8Q-YZy1sX7_TBhohMsq8qMNop-8tDi/view?usp=sharing) and place it on the NYU_Depth_v2_DATASET_ROOT without any extraction. Then, run evaluate_pytorch.py to evaluate the performance of the network on NYU Depth v2.
 
 ```bash
 python evaluate_pytorch.py --model_type --layers
