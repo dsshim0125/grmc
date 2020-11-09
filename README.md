@@ -37,6 +37,7 @@ Any parametric model can be trained with our proposed gradient based momentum co
 
 
 | Encoder  |  batch_size  |
+|----------|:--:|
 |DenseNet-161| 16 |
 |ResNet-50| 64|
 
