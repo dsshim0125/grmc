@@ -29,7 +29,18 @@ If you do not use Anaconda environment, please use pip3 rather than pip for depe
 
 ### Dataset
 
-Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.google.com/drive/folders/1TzwfNA5JRFTPO-kHMU___kILmOEodoBo) for pretraining the encoder and training the depth estimation network ([source](https://github.com/ialhashim/DenseDepth)).
+Download the subset of preprocessed NYU Depth v2 (50k) [here](https://drive.google.com/drive/folders/1TzwfNA5JRFTPO-kHMU___kILmOEodoBo) for pretraining the encoder and training the depth estimation network ([source](https://github.com/ialhashim/DenseDepth)). Extract the zip file and do not delete it after extraction. The directory is then be like
+
+```plain
+└── NYU_Depth_v2_DATASET_ROOT
+       ├── nyu_data.zip
+       └── data
+          ├── nyu2_train
+          ├── nyu2_train.csv
+          ├── nyu2_test
+          └── nyu2_test.scv
+   
+```
 
 ### Pretraining Encoder
 
