@@ -3,11 +3,6 @@
 ### IEEE ICRA 2021 Submission 
 This repo provides an official PyTorch implementation of the paper submitted to IEEE ICRA 2021, [https://arxiv.org/abs/2011.03207](https://arxiv.org/abs/2011.03207).
 
-### Introduction
-
-We show that unsupervised learning methods for image classification does not perform well on depth estimation, and propose a self-supervised pre-training with gradient field and momentum contrastive learning to learn the geometric representation of images for depth estimation.
-![Figure](figs/overview.png)
-
 
 ### Results
 ![Figure](figs/result.png)
