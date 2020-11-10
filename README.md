@@ -67,7 +67,7 @@ We provide weights of two monocular depth estimation networks, [DenseDepth](http
 |[DenseDepth](https://arxiv.org/abs/1812.11941)| DenseNet-161 |8|
 |[FCRN](https://arxiv.org/abs/1606.00373)| ResNet-50|8|
 ```bash
-python train.py --encoder_type --layers --bs
+python train.py --model_type --layers --bs
 ```
 
 
