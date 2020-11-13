@@ -20,7 +20,7 @@ conda activate grmc
 conda install pytorch=1.6.0 torchvision=0.5.0 -c pytorch
 ```
 
-We ran our experiments with PyTorch 1.6.0, CUDA 10.2, Python 3.5.6 and Ubuntu 18.04. Usage of higher or lower version of PyTorch seems to show incompatible to our pre-trained model.
+We ran our experiments with PyTorch 1.6.0, CUDA 10.2, Python 3.5.6 and Ubuntu 18.04. Usage of higher or lower version of PyTorch seems to be incompatible to our pre-trained model.
 
 ```bash
 pip install pillow==5.2.0 opencv-contrib-python
