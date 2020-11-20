@@ -76,7 +76,7 @@ python train.py --model_type --layers --bs
 Donwload the test data [here](https://drive.google.com/file/d/1LR8Q-YZy1sX7_TBhohMsq8qMNop-8tDi/view?usp=sharing) and place it on the NYU_Depth_v2_DATASET_ROOT without any extraction. Then, run evaluate_pytorch.py to evaluate the performance of the network on NYU Depth v2. All the pretrained weights above must be downloaded in the checkpoints/ directory for the evaluation.
 
 ```bash
-python evaluate_pytorch.py --model_type --layers
+python evaluate_pytorch.py --model_type=densedepth --layers=161
 ```
 
 ### Reference
