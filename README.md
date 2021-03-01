@@ -2,7 +2,8 @@
 
 ### IEEE ICRA 2021 Accepted 
 This repo provides an official PyTorch implementation of the paper accpeted in IEEE ICRA 2021 and offers pretrained encoders and depth estimation networks.
-[https://arxiv.org/abs/2011.03207](https://arxiv.org/abs/2011.03207)
+
+Paper link: [https://arxiv.org/abs/2011.03207](https://arxiv.org/abs/2011.03207)
 
 
 ### Results
