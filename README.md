@@ -1,9 +1,8 @@
-## Learning a Geometric Representation for Data-Efficient Depth Estimation via Gradient Field and Contrastive Loss
+#GrMC
+
 
 ### IEEE ICRA 2021 Accepted 
-This repo provides an official PyTorch implementation of the paper accpeted in IEEE ICRA 2021 and offers pretrained encoders and depth estimation networks.
-
-Paper link: [https://arxiv.org/abs/2011.03207](https://arxiv.org/abs/2011.03207)
+This repo provides an official PyTorch implementation of "Learning a Geometric Representation for Data-Efficient Depth Estimation via Gradient Field and Contrastive Loss" (ICRA 2021). [[paper](https://arxiv.org/abs/2011.03207)]
 
 
 ### Results
