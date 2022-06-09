@@ -1,7 +1,5 @@
 # GrMC
 
-
-### IEEE ICRA 2021 Accepted 
 This repo provides an official PyTorch implementation of "Learning a Geometric Representation for Data-Efficient Depth Estimation via Gradient Field and Contrastive Loss" (ICRA 2021). [[paper](https://arxiv.org/abs/2011.03207)]
 
 
